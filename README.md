@@ -26,3 +26,15 @@ await fs.writeFile("./result.png", imageBuffer);
 ### Result
 
 ![Result Image](result.png)
+
+## Supported Dimensions
+
+The supported dimensions are as follows:
+
+| Dimensions   |
+|--------------|
+| [704, 384]   |
+| [640, 448]   |
+| [512, 512]   |
+| [448, 576]   |
+| [384, 704]   |
