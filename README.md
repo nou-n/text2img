@@ -1,9 +1,7 @@
 # text2img
 Using the DeepAI API for text-to-image
 
-## Usage
-
-### Installation
+## Installation
 
 To install dependencies:
 
@@ -11,9 +9,9 @@ To install dependencies:
 bun install
 ```
 
-### Example
+## Usage
 
-#### Code
+### Code
 
 ```typescript
 import { generate } from "./text2img";
@@ -25,6 +23,6 @@ const imageBuffer = await generate("samoyed", {
 await fs.writeFile("./result.png", imageBuffer);
 ```
 
-#### Result
+### Result
 
 ![Result Image](result.png)
