@@ -18,7 +18,7 @@ import { generate } from "./text2img";
 import fs from "fs/promises";
 
 const imageBuffer = await generate("samoyed", {
-    dimension: [512, 512]
+    dimensions: [512, 512]
 });
 await fs.writeFile("./result.png", imageBuffer);
 ```
